@@ -1,0 +1,9 @@
+{
+  "appId": "com.joselito.one",
+  "appName": "Joselito.One",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

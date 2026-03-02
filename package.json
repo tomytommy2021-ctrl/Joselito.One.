@@ -1,0 +1,13 @@
+{
+  "name": "joselito-one",
+  "version": "1.0.0",
+  "description": "TV App Joselito.One",
+  "main": "script.js",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
+  }
+}

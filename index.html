@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joselito.One - TV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Joselito.One TV</h1>
+            <button id="settingsBtn" class="settings-btn">⚙️</button>
+        </header>
+        
+        <main>
+            <div id="channelsList" class="channels-list"></div>
+            
+            <div id="playerContainer" class="player-container hidden">
+                <video id="videoPlayer" controls></video>
+                <button id="backBtn" class="back-btn">← Volver</button>
+            </div>
+            
+            <div id="settingsPanel" class="settings-panel hidden">
+                <h2>Configuración</h2>
+                <input type="text" id="m3uUrl" placeholder="URL M3U">
+                <button id="saveUrl">Guardar URL</button>
+                <button id="closeSettings">Cerrar</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
